@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	background: #263238;
+/*background: #263238;
+background: -moz-linear-gradient(left, #263238 0%, #263238 100%);
+background: -webkit-linear-gradient(left, #263238 0%, #263238 100%);
+background: linear-gradient(to right, #263238 0%, #263238 100%);
+*/
+color: white ;
+font-family: 'Major Mono Display', monospace;
+
+}
+
+.nv{
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: .3px solid #455a64 ;
+  -webkit-box-shadow: -3px 8px 15px 0px rgba(0,0,0,0.21); 
+box-shadow: -3px 8px 15px 0px rgba(0,0,0,0.21);
+}
+.nv a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.nv a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.nv a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.nvimg{
+	height: 30px;
+	width: 30px;
+}
+::selection {
+  background: black ; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+.box1{
+	width: 70% ;
+	height: 200px ;
+	background: #455A64;
+background: -moz-linear-gradient(left, #455A64 0%, #37474F 55%, #263238 100%);
+background: -webkit-linear-gradient(left, #455A64 0%, #37474F 55%, #263238 100%);
+background: linear-gradient(to right, #455A64 0%, #37474F 55%, #263238 100%);
+
+}
+
+.bigbtn{
+	padding: 10px ;
+	font-size: 20px ;
+	background: #eceff1 ;
+	border: none ;
+	color: black ;
+	border-radius: 3px ;
+	-webkit-box-shadow: -3px 8px 15px 0px rgba(0,0,0,0.21); 
+box-shadow: -3px 8px 15px 0px rgba(0,0,0,0.21);
+display: inline;
+}
+.bigbtn:hover{
+	background: #78909c ;
+}
+.buttom{
+	overflow: hidden;
+  position: fixed;
+  bottom: 0;
+}
+
+.b3cm {
+     margin-bottom: 1cm;
+  }
